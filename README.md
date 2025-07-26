@@ -2,9 +2,9 @@
 
 ## Problem Statement
 
-The aim of this project is to build an image classification system that can accurately identify **cats** and  **dogs**using deep learning. By fine-tuning the pretrained **VGG19** model on a labeled dataset of animal images, this project demonstrates the effectiveness of **transfer learning** in solving multi-class classification tasks with high accuracy and minimal training time.
+The aim of this project is to build an image classification system that can accurately identify **cats** and  **dogs** using deep learning. By fine-tuning the pretrained **VGG19** model on a labeled dataset of animal images, this project demonstrates the effectiveness of **transfer learning** in solving multi-class classification tasks with high accuracy and minimal training time.
 
----
+
 
 ## Dataset Overview
 
@@ -20,7 +20,7 @@ The aim of this project is to build an image classification system that can accu
 
 This structured and preprocessed dataset enables effective training of the VGG19 model for multi-class classification.
 
----
+
 
 ##  VGG19 Model and Its Working
 
@@ -53,7 +53,6 @@ VGG19 is a deep Convolutional Neural Network (CNN) developed by the Visual Geome
 - Only the final layer is modified and trained on our dataset
 - Reduces training time and improves accuracy
 
----
 
 ##  Training Details
 
@@ -69,7 +68,6 @@ At each step:
 - Loss was computed and backpropagated
 - Weights were updated
 
----
 
 ## Evaluation and Results
 
@@ -102,7 +100,7 @@ The model was trained over **3 epochs** with accuracy and loss trends recorded b
 
 The model quickly generalized well, with strong results achieved by just the second epoch.
 
----
+
 
 ## Key Libraries Used
 
@@ -110,7 +108,14 @@ The model quickly generalized well, with strong results achieved by just the sec
 - `matplotlib` – for visualization  
 - `os`, `PIL`, `numpy` – for file handling and image preprocessing  
 
----
+## Prediction
+<img width="539" height="542" alt="image" src="https://github.com/user-attachments/assets/ab4388e4-8b11-4449-bdd4-95fa3005b953" />
+dog
+
+## Confusion Matrix (for batch-size=20)
+<img width="706" height="530" alt="image" src="https://github.com/user-attachments/assets/73a0a17a-c483-4a21-8266-52069de7ce3a" />
+
+
 
 ## Future Improvements
 
@@ -118,5 +123,5 @@ The model quickly generalized well, with strong results achieved by just the sec
 - Use learning rate schedulers for better training control  
 - Unfreeze more convolutional layers for fine-tuning deeper representations
 
----
+
 
