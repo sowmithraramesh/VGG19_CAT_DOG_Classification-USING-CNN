@@ -109,7 +109,7 @@ The model quickly generalized well, with strong results achieved by just the sec
 - `os`, `PIL`, `numpy` – for file handling and image preprocessing  
 
 ## Prediction
-<img width="539" height="542" alt="image" src="https://github.com/user-attachments/assets/ab4388e4-8b11-4449-bdd4-95fa3005b953" />
+<img width="962" height="804" alt="image" src="https://github.com/user-attachments/assets/56220806-f129-4fb4-815c-98a31e5d4125" />
 dog
 
 ## Confusion Matrix (for batch-size=20)
