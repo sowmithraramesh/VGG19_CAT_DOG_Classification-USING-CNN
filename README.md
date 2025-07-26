@@ -1,4 +1,4 @@
-# Image Classification of Cats, Dogs, and Pandas using Fine-Tuned VGG19 CNN Model
+# Image Classification of Cats and Dogs using Fine-Tuned VGG19 CNN Model
 
 ## Problem Statement
 
