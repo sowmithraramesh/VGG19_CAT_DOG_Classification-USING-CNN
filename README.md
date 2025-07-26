@@ -2,13 +2,13 @@
 
 ## Problem Statement
 
-The aim of this project is to build an image classification system that can accurately identify **cats**, **dogs**, and **pandas** using deep learning. By fine-tuning the pretrained **VGG19** model on a labeled dataset of animal images, this project demonstrates the effectiveness of **transfer learning** in solving multi-class classification tasks with high accuracy and minimal training time.
+The aim of this project is to build an image classification system that can accurately identify **cats** and  **dogs**using deep learning. By fine-tuning the pretrained **VGG19** model on a labeled dataset of animal images, this project demonstrates the effectiveness of **transfer learning** in solving multi-class classification tasks with high accuracy and minimal training time.
 
 ---
 
 ## Dataset Overview
 
-- **Classes**: 3 — Cat, Dog, Panda  
+- **Classes**: 2 — Cat, Dog  
 - **Image Type**: Colored (RGB)  
 - **Image Size (after preprocessing)**: 224 × 224 pixels  
 
